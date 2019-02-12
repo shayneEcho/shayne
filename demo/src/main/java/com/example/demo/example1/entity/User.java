@@ -28,4 +28,7 @@ public class User {
     @Column(length = 255)
     @ApiModelProperty(value = "邮箱", required = false, name = "email")
     private String email;
+
+
+
 }
